@@ -1,4 +1,4 @@
-# DEF-Rulebooks
+# DEF-Rulebook
 
 [DEF](https://github.com/AliceBlueCode/DEF) の TRPG モードで使うルールブックとシナリオを集めたリポジトリです。
 コードは入っていません（ルールシステムの実装はプラグインとして、別に読み込みます）。
@@ -8,13 +8,13 @@
 1. このリポジトリを手元に取ってきます。
 
    ```bash
-   git clone https://github.com/AliceBlueCode/DEF-Rulebooks.git
+   git clone https://github.com/AliceBlueCode/DEF-Rulebook.git
    ```
 
 2. DEF の `.env` に、取ってきた場所を書きます（`;` 区切りで複数書けます）。
 
    ```dotenv
-   TRPG_RULEBOOK_REPO_PATHS=/path/to/DEF-Rulebooks
+   TRPG_RULEBOOK_REPO_PATHS=/path/to/DEF-Rulebook
    ```
 
 3. DEF を起動し直すと、TRPG モードのルールブックの一覧に出ます。
@@ -47,13 +47,13 @@
 
 ---
 
-# DEF-Rulebooks (English)
+# DEF-Rulebook (English)
 
 Rulebooks and scenarios for the TRPG mode of [DEF](https://github.com/AliceBlueCode/DEF). This repository holds data only;
 rule-system code is loaded separately as plugins.
 
-1. `git clone https://github.com/AliceBlueCode/DEF-Rulebooks.git`
-2. Set `TRPG_RULEBOOK_REPO_PATHS=/path/to/DEF-Rulebooks` in DEF's `.env` (separate several paths with `;`).
+1. `git clone https://github.com/AliceBlueCode/DEF-Rulebook.git`
+2. Set `TRPG_RULEBOOK_REPO_PATHS=/path/to/DEF-Rulebook` in DEF's `.env` (separate several paths with `;`).
 3. Restart DEF. The rulebooks appear in the TRPG mode rulebook list.
 
 Licenses are per folder: `def_original/` is CC BY-SA 4.0, `template/` is CC0 1.0. See each folder's `LICENSE`.
